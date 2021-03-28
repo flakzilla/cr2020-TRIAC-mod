@@ -21,9 +21,10 @@ Read up on these AK threads to learn more:
 
 ### Caution & Advice
 * Do not apply the 08-80 (jumper wire) Service Bulletin if the TRIAC mod is installed.
-* At least 2oz copper is required for the PCB, at least for the CR-2020.
-* Although included in some diagrams, an RC snubber across MT1/MT2 is not required as long as the specified TRIAC is used.
-* The TRIAC mod doesn't protect the set of contacts in the CR-2020's power switch that controls the switched outlet. If the switched outlet is used, it will still cause wear on those contacts.
+* At least 2oz copper is required for the PCB.
+* Although included in some diagrams, an RC snubber across MT1/MT2 is not required as long as the specified "alternistor" type TRIAC is used.
+* The TRIAC mod doesn't protect the set of contacts in the CR-2020's power switch that controls the switched outlet. If the switched outlet is used, its load will still cause wear on those contacts.
+* It's possible to use the switched outlet's contacts in lieu of the main contacts if the main contacts are fried, just swap the red and white wires coming back from the power switch.
 
 ### Acknowledgements
 The author would like to thank all of the AudioKarma users who invented, refined, and helped spread information about the TRIAC mod.
@@ -44,9 +45,9 @@ BOM:
 Note that it's necessary to modify the heatsink to fit behind the transformer. Look at the pictures included with the KiCAD project files: [heatsink modifications](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod/reference/heatsink)
 
 ### Assembly
-Install the populated board using the mounting hole for the resistor behind the transformer. The factory mounting screw can be used to affix the standoff, and the factory nut can be used to affix the board to the standoff.
+Install the populated board using the mounting hole for the small resistor behind the transformer. The factory mounting screw can be used to affix the standoff in place of the nut, and the factory nut is then used to affix the board to the standoff.
 
-Wire according to the hookup diagram. You'll need an extra wire to connect to the fuse holder.
+Wire according to the hookup diagram. You'll need an extra wire to connect MT1 to the fuse holder.
 * [Hookup diagram](img/hookup_diagram.png?raw=true)
 
 A completed installation:
