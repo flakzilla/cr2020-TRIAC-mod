@@ -41,12 +41,13 @@ BOM:
 * [ODS Format](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/BOM/BOM.ods)
 * [Excel Format](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/BOM/BOM.xlsx)
 
-Note that it's necessary to modify the heatsink to fit behind the transformer. Look at the pictures included with the KiCAD project files: [Heatsink modifications](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod/reference/heatsink)
+Note that it's necessary to modify the heatsink to fit behind the transformer. Look at the pictures included with the KiCAD project files: [heatsink modifications](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod/reference/heatsink)
 
 ### Assembly
 Install the populated board using the mounting hole for the resistor behind the transformer. The factory mounting screw can be used to affix the standoff, and the factory nut can be used to affix the board to the standoff.
 
-Wire according to the hookup diagram. You will need to make your own wire to connect to the fuse holder. [Hookup diagram)](img/installed_no_heatsink.jpg?raw=true)
+Wire according to the hookup diagram. You'll need an extra wire to connect to the fuse holder.
+* [Hookup iagram)](img/hookup_diagram.jpg?raw=true)
 
 A completed installation:
 
