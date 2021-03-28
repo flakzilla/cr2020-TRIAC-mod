@@ -13,7 +13,7 @@ This project is a dirt cheap PCB that makes it easier to install the TRIAC mod i
 The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod)).
 
 ### What is the TRIAC mod?
-The TRIAC mod is a way to substantially extend the life of old power switches that tend to become damaged over time due to arcing. With the mod installed, a TRIAC is used to switch power, and the physical power switch is only used at low current to activate the TRIAC. Since the power switch doesn't have to pass high current in this configuration, the contacts won't arc nearly as much during actuation, and the switch will last a lot longer.
+The TRIAC mod is a way to extend the life of power switches that become damaged over time due to arcing from high current. With the mod installed, a TRIAC is used to switch power on electronically, and the mechanical power switch is used at low current to activate the TRIAC. Since the power switch doesn't have to pass high current in this configuration, the contacts won't arc as much during actuation, and the switch will last a lot longer.
 
 Read up on these AK threads to learn more:
 * https://www.audiokarma.org/forums/index.php?threads/yamaha-cr-2020-power-switch-failed-on.919979/
