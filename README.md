@@ -1,5 +1,5 @@
 # Yamaha CR-2020 TRIAC power switch mod PCB
-Cheap and convenient PCB for the famous TRIAC power swith mod. This board is meant for the Yamaha CR-2020 (and includes installation instructions targeting that device), but ought to work with anything that can support the TRIAC mod.
+Cheap and convenient PCB for the famous TRIAC power switch mod. This board is meant for the Yamaha CR-2020 (and includes installation instructions targeting that device), but ought to work with anything that can support the TRIAC mod.
 
 ![Finished Board](img/board_complete_no_heatsink.jpg?raw=true "Finished Board (no heatsink)")
 
@@ -10,7 +10,7 @@ Cheap and convenient PCB for the famous TRIAC power swith mod. This board is mea
 ## Summary
 This project is a dirt cheap PCB that makes it easier to install the TRIAC mod into a CR-2020. A complete BOM is provided with example photos and a hookup diagram.
 
-The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1)).
+The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod)).
 
 ### What is the TRIAC mod?
 The TRIAC mod is a way to substantially extend the life of old power switches that tend to become stuck or damaged over time due to arcing. With the mod installed, a TRIAC is used to switch power on, and the power switch is used at low current to activate the TRIAC. Since high current is no longer passing through the power switch, the contacts will not be damaged as quickly.
@@ -31,16 +31,16 @@ The author would like to thank all of the AudioKarma users who invented, refined
 ### PCB
 Recommend OSH Park, their service is very cheap for these small boards: https://oshpark.com/
 
-Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/gerber%20zips/CR2020%20relay%20board%20LC-67183-1%20v1.0.zip)
+Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/gerber%20zips/gerbers%20v1.0.zip)
 
 Board requires **2oz copper weight**. Thicker copper is mandatory due to high current passing through the TRIAC. If using OSH Park, the 2oz-0.8mm service works great.
 
 ### Parts
 BOM:
-* [ODS Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
-* [Excel Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.xlsx)
+* [ODS Format](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/BOM/BOM.ods)
+* [Excel Format](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/BOM/BOM.xlsx)
 
-Note that it's necessary to modify the heatsink to fit behind the transformer. Look at the pictures included with the KiCAD project files: [Heatsink modifications](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
+Note that it's necessary to modify the heatsink to fit behind the transformer. Look at the pictures included with the KiCAD project files: [Heatsink modifications](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod/reference/heatsink)
 
 ### Assembly
 Install the populated board using the mounting hole for the resistor behind the transformer. The factory mounting screw can be used to affix the standoff, and the factory nut can be used to affix the board to the standoff.
