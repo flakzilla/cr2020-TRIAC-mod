@@ -8,12 +8,12 @@ Cheap and convenient PCB for the famous TRIAC power switch mod. This board is me
 [Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
-This project is a dirt cheap PCB that makes it easier to install the TRIAC mod into a CR-2020. A complete BOM is provided with example photos and a hookup diagram.
+This project is a dirt cheap PCB that makes it easier to install the TRIAC mod into a CR-2020. A complete BOM, example photos, and a hookup diagram are provided.
 
 The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod)).
 
 ### What is the TRIAC mod?
-The TRIAC mod is a way to substantially extend the life of old power switches that tend to become stuck or damaged over time due to arcing. With the mod installed, a TRIAC is used to switch power on, and the power switch is used at low current to activate the TRIAC. Since high current is no longer passing through the power switch, the contacts will not be damaged as quickly.
+The TRIAC mod is a way to substantially extend the life of old power switches that tend to become damaged over time due to arcing. With the mod installed, a TRIAC is used to switch power, and the physical power switch is only used at low current to activate the TRIAC. Since the power switch doesn't have to pass high current in this configuration, the contacts won't arc nearly as much during actuation, and the switch will last a lot longer.
 
 Read up on these AK threads to learn more:
 * https://www.audiokarma.org/forums/index.php?threads/yamaha-cr-2020-power-switch-failed-on.919979/
@@ -22,6 +22,7 @@ Read up on these AK threads to learn more:
 ### Caution & Advice
 * Do not apply the 08-80 (jumper wire) Service Bulletin if the TRIAC mod is installed.
 * At least 2oz copper is required for the PCB, at least for the CR-2020.
+* Although included in some diagrams, an RC snubber across MT1/MT2 is not required as long as the specified TRIAC is used.
 * The TRIAC mod doesn't protect the set of contacts in the CR-2020's power switch that controls the switched outlet. If the switched outlet is used, it will still cause wear on those contacts.
 
 ### Acknowledgements
