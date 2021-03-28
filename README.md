@@ -47,7 +47,7 @@ Note that it's necessary to modify the heatsink to fit behind the transformer. L
 Install the populated board using the mounting hole for the resistor behind the transformer. The factory mounting screw can be used to affix the standoff, and the factory nut can be used to affix the board to the standoff.
 
 Wire according to the hookup diagram. You'll need an extra wire to connect to the fuse holder.
-* [Hookup diagram)](img/hookup_diagram.png?raw=true)
+* [Hookup diagram](img/hookup_diagram.png?raw=true)
 
 A completed installation:
 
