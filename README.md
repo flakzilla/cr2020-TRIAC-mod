@@ -55,7 +55,7 @@ A completed installation:
 * [Installed (w/ heatsink)](img/installed_heatsink.jpg?raw=true)
 
 ## License
-This project is released under the terms of the Creative Commons Attribution + Noncommercial + ShareAlike (BY-NC-SA) license. https://creativecommons.org/licenses/by-nc-sa/2.0/
+This project is released under the terms of the Creative Commons Attribution + ShareAlike (CC BY-SA) license. https://creativecommons.org/licenses/by-sa/4.0/
 
 This project is distributed 'as-is' in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
