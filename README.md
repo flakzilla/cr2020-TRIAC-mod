@@ -8,12 +8,12 @@ Cheap and convenient PCB for the famous TRIAC power switch mod. This board is me
 [Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
-This project is a dirt cheap PCB that makes it easier to install the TRIAC mod into a CR-2020. A complete BOM, example photos, and a hookup diagram are provided.
+This project is a dirt cheap PCB that makes it easier to install the TRIAC mod into a CR-2020. A complete BOM, example photos, and a hookup diagram are included.
 
 The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-TRIAC-mod/tree/main/CR-2020%20TRIAC%20power%20switch%20mod)).
 
 ### What is the TRIAC mod?
-The TRIAC mod is a way to extend the life of power switches that become damaged over time due to arcing. With the mod installed, a solid state TRIAC device is used to switch power electronically, and the mechanical power switch is rewired to activate the TRIAC at low current. Since the power switch doesn't have to pass high current in this configuration, the contacts won't arc as much during actuation, and the switch will last a lot longer.
+The TRIAC mod is a way to extend the life of power switches with contacts that become damaged over time due to arcing. With the mod installed, a solid state TRIAC device is used to switch power electronically, and the power switch itself is rewired to activate the TRIAC at low current. Since the power switch doesn't have to pass high current in this configuration, the contacts won't arc as much during actuation, and the switch will last a lot longer.
 
 Read up on these AK threads to learn more:
 * https://www.audiokarma.org/forums/index.php?threads/yamaha-cr-2020-power-switch-failed-on.919979/
@@ -35,7 +35,7 @@ Recommend OSH Park, their service is very cheap for these small boards: https://
 
 Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-TRIAC-mod/blob/main/CR-2020%20TRIAC%20power%20switch%20mod/gerber%20zips/gerbers%20v1.0.zip)
 
-Board requires **2oz copper weight**. Thicker copper is mandatory due to high current passing through the TRIAC. If using OSH Park, the 2oz-0.8mm service works great.
+Board requires **2oz copper weight**. Thicker copper is mandatory due to high current passing through the TRIAC. If using OSH Park, the 2oz-0.8mm service works great. The board is designed to just about handle 7A, the fuse current for the CR-2020.
 
 ### Parts
 BOM:
