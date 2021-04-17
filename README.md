@@ -51,10 +51,8 @@ Wire according to the hookup diagram. You'll need an extra wire to connect MT1 t
 * [Hookup diagram](img/hookup_diagram.png?raw=true)
 
 A completed installation:
-
-[Installed (clear view w/o heatsink)](img/installed_no_heatsink.jpg?raw=true)
-
-[Installed (w/ heatsink)](img/installed_heatsink.jpg?raw=true)
+* [Installed (clear view w/o heatsink)](img/installed_no_heatsink.jpg?raw=true)
+* [Installed (w/ heatsink)](img/installed_heatsink.jpg?raw=true)
 
 ## License
 This project is released under the terms of the Creative Commons Attribution + Noncommercial + ShareAlike (BY-NC-SA) license. https://creativecommons.org/licenses/by-nc-sa/2.0/
